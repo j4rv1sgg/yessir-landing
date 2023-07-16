@@ -2,7 +2,8 @@
 const nextConfig = {
   images: {
     domains: ['images.pexels.com'],
-    output: "export"
+    output: "export",
+    future: { webpack5: true }
   }
 }
 
